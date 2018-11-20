@@ -50,7 +50,7 @@ module Babelish
       unless @session
         authenticate
       end
-      @session.spreadsheet_by_title(name)
+      @session.spreadsheet_by_key(name)
     end
   end
 end
